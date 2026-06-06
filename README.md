@@ -61,7 +61,7 @@ Muhammad Hafizul Bin Ahmad Husni
 Mechatronics Engineering — USM
 
 # Copy dashboard.png to root folder
-copy output\dashboard.png
+copy output\dashboard.png dashboard.png
 
 # Keep root dashboard image for README
 !dashboard.png
