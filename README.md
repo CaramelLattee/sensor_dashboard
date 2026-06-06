@@ -1,67 +1,50 @@
-# Sensor Dashboard 📊
+# Sensor Dashboard
 
-A Python data analytics dashboard that reads 
-sensor CSV data and generates professional 
-matplotlib charts for engineering analysis.
+A Python data analytics dashboard that reads sensor CSV data and generates professional matplotlib charts for engineering analysis.
 
 ## Features
-- 📈 Voltage & Current trend lines with spec limits
-- 🥧 Pass/Fail distribution pie chart
-- 📊 FPY (First Pass Yield) bar chart
-- 📉 Temperature & Pressure histograms
-- 📋 Statistics summary table
-- 🌙 Professional dark theme dashboard
-- 💾 Exports to PNG image
+
+- Voltage and Current trend lines with spec limits
+- Pass/Fail distribution pie chart
+- FPY First Pass Yield bar chart
+- Temperature and Pressure histograms
+- Statistics summary table
+- Professional dark theme dashboard
+- Exports to PNG image
 
 ## Tech Stack
-- Python 3.12+
-- Pandas — data loading & analysis
-- Matplotlib — chart generation
-- NumPy — numerical calculations
-- OOP — 4 separate modules
 
-## Project Structure
-sensor_dashboard/
-├── main.py              ← entry point
-├── data_loader.py       ← CSV loading
-├── analyser.py          ← statistics
-├── chart_generator.py   ← matplotlib charts
-└── sample_data/
-└── generate_data.py ← sample data generator
+- Python 3.12+
+- Pandas for data loading and analysis
+- Matplotlib for chart generation
+- NumPy for numerical calculations
+- OOP with 4 separate modules
 
 ## How To Run
-```bash
-# Install dependencies
+
+Install dependencies first:
 pip install matplotlib pandas numpy
 
-# Generate sample data
+Generate sample data:
 cd sample_data
 python generate_data.py
 cd ..
 
-# Run dashboard
+Run dashboard:
 python main.py
 
-# Open output/dashboard.png
-```
+## Dashboard Preview
 
-## Sample Dashboard
-![Dashboard](output/dashboard.png)
+![Dashboard](dashboard.png)
 
 ## Spec Limits
-| Sensor | LSL | USL | Unit |
-|--------|-----|-----|------|
-| Voltage | 4.5 | 5.5 | V |
-| Current | 0.8 | 1.2 | A |
-| Temperature | 20.0 | 35.0 | °C |
-| Pressure | 2.0 | 4.0 | bar |
+
+Voltage   : 4.5V - 5.5V
+Current   : 0.8A - 1.2A
+Temperature: 20C - 35C
+Pressure  : 2.0bar - 4.0bar
 
 ## Author
+
 Muhammad Hafizul Bin Ahmad Husni
-Mechatronics Engineering — USM
-
-# Copy dashboard.png to root folder
-copy output\dashboard.png dashboard.png
-
-# Keep root dashboard image for README
-!dashboard.png
+Mechatronics Engineering USM
