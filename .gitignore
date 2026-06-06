@@ -1,13 +1,9 @@
-# Generated output
-output/
 
-# Sample data CSV (generated files)
-sample_data/*.csv
 
-# Python cache
+# But KEEP root dashboard image
+# (don't add dashboard.png to gitignore!)
+
 __pycache__/
 *.pyc
-*.pyo
-
-# VSCode
+sample_data/*.csv
 .vscode/
